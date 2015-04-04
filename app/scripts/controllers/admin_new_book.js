@@ -12,7 +12,7 @@ bmApp.controller('AdminNewBookCtrl',
         goToAdminListView();
     };
     
-    $scope.goToAdminListView = function() {
+    var goToAdminListView = function() {
         $location.path('/admin/books');
     };
 });
